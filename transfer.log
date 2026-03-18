@@ -1,0 +1,157 @@
+2026-03-18 14:59:11,499 - __main__ - INFO - Starting Video Transfer Service
+2026-03-18 14:59:11,689 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 14:59:11,690 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 14:59:11,690 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 14:59:11,690 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 14:59:11,690 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-18 14:59:11,690 - apscheduler.executors.default - INFO - Running job "job (trigger: date[2026-03-18 14:59:11 CST], next run at: 2026-03-18 14:59:11 CST)" (scheduled at 2026-03-18 14:59:11.689234+08:00)
+2026-03-18 14:59:11,692 - apscheduler.scheduler - INFO - Removed job 667e9f3957134cf7aa52b2dd05777041
+2026-03-18 14:59:11,692 - __main__ - INFO - Starting scheduled check...
+2026-03-18 14:59:11,693 - __main__ - ERROR - Job failed: [WinError 123] 文件名、目录名或卷标语法不正确。: 'https:'
+2026-03-18 14:59:11,693 - __main__ - INFO - Job finished.
+2026-03-18 14:59:11,693 - apscheduler.executors.default - INFO - Job "job (trigger: date[2026-03-18 14:59:11 CST], next run at: 2026-03-18 14:59:11 CST)" executed successfully
+2026-03-18 15:00:30,224 - __main__ - INFO - Starting Video Transfer Service
+2026-03-18 15:00:30,242 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:00:30,244 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:00:30,244 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:00:30,244 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:00:30,245 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-18 15:00:30,245 - apscheduler.executors.default - INFO - Running job "job (trigger: date[2026-03-18 15:00:30 CST], next run at: 2026-03-18 15:00:30 CST)" (scheduled at 2026-03-18 15:00:30.242976+08:00)
+2026-03-18 15:00:30,245 - apscheduler.scheduler - INFO - Removed job a6677e6461444ae1aece30db82d6c11d
+2026-03-18 15:00:30,245 - __main__ - INFO - Starting scheduled check...
+2026-03-18 15:00:30,247 - __main__ - ERROR - Job failed: [WinError 123] 文件名、目录名或卷标语法不正确。: 'https:'
+2026-03-18 15:00:30,247 - __main__ - INFO - Job finished.
+2026-03-18 15:00:30,247 - apscheduler.executors.default - INFO - Job "job (trigger: date[2026-03-18 15:00:30 CST], next run at: 2026-03-18 15:00:30 CST)" executed successfully
+2026-03-18 15:01:29,288 - __main__ - INFO - Starting Video Transfer Service
+2026-03-18 15:01:29,306 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:01:29,308 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:01:29,308 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:01:29,308 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:01:29,308 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-18 15:01:29,309 - apscheduler.executors.default - INFO - Running job "job (trigger: date[2026-03-18 15:01:29 CST], next run at: 2026-03-18 15:01:29 CST)" (scheduled at 2026-03-18 15:01:29.306747+08:00)
+2026-03-18 15:01:29,309 - apscheduler.scheduler - INFO - Removed job a132d3b383b648e2a095a7f4c8515f80
+2026-03-18 15:01:29,309 - __main__ - INFO - Starting scheduled check...
+2026-03-18 15:01:29,311 - src.downloader - INFO - Using local FFmpeg from: E:\ideaWork\video-transfer\bin
+2026-03-18 15:01:29,311 - __main__ - INFO - Checking channel: https://www.youtube.com/@Tsoding
+2026-03-18 15:01:29,311 - src.downloader - INFO - Fetching videos from https://www.youtube.com/@Tsoding...
+2026-03-18 15:01:32,910 - __main__ - INFO - Found new video: gtk3RZHwJUA - Insane Shadow Data Trick in C
+2026-03-18 15:01:32,987 - __main__ - INFO - Downloading video gtk3RZHwJUA...
+2026-03-18 15:01:33,057 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=gtk3RZHwJUA
+2026-03-18 15:01:45,190 - __main__ - INFO - Uploading video gtk3RZHwJUA...
+2026-03-18 15:01:45,270 - src.uploader - INFO - Starting upload for: 【生肉】【Tsoding】C 语言的疯狂影子数据技巧
+2026-03-18 15:01:45,401 - src.uploader - ERROR - Error uploading video 【生肉】【Tsoding】C 语言的疯狂影子数据技巧: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:01:45,402 - __main__ - ERROR - Failed to process video gtk3RZHwJUA: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:01:45,569 - __main__ - INFO - Found new video: QGm-d5Ch5JM - Self-Reproducing Programs
+2026-03-18 15:01:45,677 - __main__ - INFO - Downloading video QGm-d5Ch5JM...
+2026-03-18 15:01:45,748 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=QGm-d5Ch5JM
+2026-03-18 15:02:04,700 - __main__ - INFO - Uploading video QGm-d5Ch5JM...
+2026-03-18 15:02:04,826 - src.uploader - INFO - Starting upload for: 【生肉】【Tsoding】自复制程序
+2026-03-18 15:02:04,841 - src.uploader - ERROR - Error uploading video 【生肉】【Tsoding】自复制程序: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:04,841 - __main__ - ERROR - Failed to process video QGm-d5Ch5JM: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:04,915 - __main__ - INFO - Found new video: kS_GqDp6IT4 - Libraries That Quietly Revolutionized C
+2026-03-18 15:02:05,001 - __main__ - INFO - Downloading video kS_GqDp6IT4...
+2026-03-18 15:02:05,072 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=kS_GqDp6IT4
+2026-03-18 15:02:11,833 - __main__ - INFO - Uploading video kS_GqDp6IT4...
+2026-03-18 15:02:11,906 - src.uploader - INFO - Starting upload for: 【生肉】【Tsoding】悄然改变 C 语言的图书馆
+2026-03-18 15:02:11,919 - src.uploader - ERROR - Error uploading video 【生肉】【Tsoding】悄然改变 C 语言的图书馆: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:11,920 - __main__ - ERROR - Failed to process video kS_GqDp6IT4: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:11,992 - __main__ - INFO - Found new video: qjWkNZ0SXfo - One Formula That Demystifies 3D Graphics
+2026-03-18 15:02:12,064 - __main__ - INFO - Downloading video qjWkNZ0SXfo...
+2026-03-18 15:02:12,147 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=qjWkNZ0SXfo
+2026-03-18 15:02:22,350 - __main__ - INFO - Uploading video qjWkNZ0SXfo...
+2026-03-18 15:02:22,423 - src.uploader - INFO - Starting upload for: 【生肉】【Tsoding】揭开 3D 图形神秘面纱的一个公式
+2026-03-18 15:02:22,440 - src.uploader - ERROR - Error uploading video 【生肉】【Tsoding】揭开 3D 图形神秘面纱的一个公式: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:22,440 - __main__ - ERROR - Failed to process video qjWkNZ0SXfo: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:22,518 - __main__ - INFO - Found new video: DMbrNhx2zWQ - The Annoying Usefulness of Emacs
+2026-03-18 15:02:22,589 - __main__ - INFO - Downloading video DMbrNhx2zWQ...
+2026-03-18 15:02:22,658 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=DMbrNhx2zWQ
+2026-03-18 15:02:29,197 - __main__ - INFO - Uploading video DMbrNhx2zWQ...
+2026-03-18 15:02:29,288 - src.uploader - INFO - Starting upload for: 【生肉】【Tsoding】Emacs 令人烦恼的用处
+2026-03-18 15:02:29,302 - src.uploader - ERROR - Error uploading video 【生肉】【Tsoding】Emacs 令人烦恼的用处: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:29,302 - __main__ - ERROR - Failed to process video DMbrNhx2zWQ: 尚未安装第三方请求库或未注册自定义第三方请求库。
+$ pip3 install (curl_cffi|httpx|aiohttp)
+2026-03-18 15:02:29,391 - __main__ - INFO - Job finished.
+2026-03-18 15:02:29,391 - apscheduler.executors.default - INFO - Job "job (trigger: date[2026-03-18 15:01:29 CST], next run at: 2026-03-18 15:01:29 CST)" executed successfully
+2026-03-18 15:08:49,529 - __main__ - INFO - Starting Video Transfer Service
+2026-03-18 15:08:49,548 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:08:49,549 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:08:49,550 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:08:49,550 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:08:49,550 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-18 15:08:49,550 - apscheduler.executors.default - INFO - Running job "job (trigger: date[2026-03-18 15:08:49 CST], next run at: 2026-03-18 15:08:49 CST)" (scheduled at 2026-03-18 15:08:49.548092+08:00)
+2026-03-18 15:08:49,550 - apscheduler.scheduler - INFO - Removed job 41931ffcb9224d29a496f30ea40df172
+2026-03-18 15:08:49,551 - __main__ - INFO - Starting scheduled check...
+2026-03-18 15:08:49,553 - src.downloader - INFO - Using local FFmpeg from: E:\ideaWork\video-transfer\bin
+2026-03-18 15:08:49,553 - __main__ - INFO - Checking channel: https://www.youtube.com/@Tsoding
+2026-03-18 15:08:49,553 - src.downloader - INFO - Fetching videos from https://www.youtube.com/@Tsoding...
+2026-03-18 15:08:52,195 - __main__ - INFO - Video gtk3RZHwJUA previously failed. Retrying...
+2026-03-18 15:08:52,282 - __main__ - INFO - Downloading video gtk3RZHwJUA...
+2026-03-18 15:08:52,353 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=gtk3RZHwJUA
+2026-03-18 15:09:03,213 - __main__ - INFO - Video gtk3RZHwJUA downloaded successfully. Upload skipped.
+2026-03-18 15:09:03,213 - __main__ - INFO - Video QGm-d5Ch5JM previously failed. Retrying...
+2026-03-18 15:09:03,286 - __main__ - INFO - Downloading video QGm-d5Ch5JM...
+2026-03-18 15:09:03,361 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=QGm-d5Ch5JM
+2026-03-18 15:09:12,113 - __main__ - INFO - Video QGm-d5Ch5JM downloaded successfully. Upload skipped.
+2026-03-18 15:09:12,114 - __main__ - INFO - Video kS_GqDp6IT4 previously failed. Retrying...
+2026-03-18 15:09:12,194 - __main__ - INFO - Downloading video kS_GqDp6IT4...
+2026-03-18 15:09:12,271 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=kS_GqDp6IT4
+2026-03-18 15:09:17,493 - __main__ - INFO - Video kS_GqDp6IT4 downloaded successfully. Upload skipped.
+2026-03-18 15:09:17,494 - __main__ - INFO - Video qjWkNZ0SXfo previously failed. Retrying...
+2026-03-18 15:09:17,655 - __main__ - INFO - Downloading video qjWkNZ0SXfo...
+2026-03-18 15:09:17,845 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=qjWkNZ0SXfo
+2026-03-18 15:09:25,218 - __main__ - INFO - Video qjWkNZ0SXfo downloaded successfully. Upload skipped.
+2026-03-18 15:09:25,218 - __main__ - INFO - Video DMbrNhx2zWQ previously failed. Retrying...
+2026-03-18 15:09:25,352 - __main__ - INFO - Downloading video DMbrNhx2zWQ...
+2026-03-18 15:09:25,429 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=DMbrNhx2zWQ
+2026-03-18 15:09:31,053 - __main__ - INFO - Video DMbrNhx2zWQ downloaded successfully. Upload skipped.
+2026-03-18 15:09:31,053 - __main__ - INFO - Job finished.
+2026-03-18 15:09:31,053 - apscheduler.executors.default - INFO - Job "job (trigger: date[2026-03-18 15:08:49 CST], next run at: 2026-03-18 15:08:49 CST)" executed successfully
+2026-03-18 15:17:21,471 - __main__ - INFO - Starting Video Transfer Service
+2026-03-18 15:17:21,490 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:17:21,491 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-18 15:17:21,491 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:17:21,491 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2026-03-18 15:17:21,491 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-18 15:17:21,492 - apscheduler.executors.default - INFO - Running job "job (trigger: date[2026-03-18 15:17:21 CST], next run at: 2026-03-18 15:17:21 CST)" (scheduled at 2026-03-18 15:17:21.490274+08:00)
+2026-03-18 15:17:21,493 - apscheduler.scheduler - INFO - Removed job 90a4f17de3b24b078523b4d5bf2103ce
+2026-03-18 15:17:21,493 - __main__ - INFO - Starting scheduled check...
+2026-03-18 15:17:21,494 - src.downloader - INFO - Using local FFmpeg from: E:\ideaWork\video-transfer\bin
+2026-03-18 15:17:21,494 - __main__ - INFO - Checking channel: https://www.youtube.com/@Tsoding
+2026-03-18 15:17:21,494 - src.downloader - INFO - Fetching videos from https://www.youtube.com/@Tsoding...
+2026-03-18 15:17:23,256 - __main__ - INFO - Video gtk3RZHwJUA already downloaded. Skipping.
+2026-03-18 15:17:23,257 - __main__ - INFO - Video QGm-d5Ch5JM already downloaded. Skipping.
+2026-03-18 15:17:23,258 - __main__ - INFO - Video kS_GqDp6IT4 already downloaded. Skipping.
+2026-03-18 15:17:23,259 - __main__ - INFO - Video qjWkNZ0SXfo already downloaded. Skipping.
+2026-03-18 15:17:23,259 - __main__ - INFO - Video DMbrNhx2zWQ already downloaded. Skipping.
+2026-03-18 15:17:23,259 - __main__ - INFO - Found new video: 95M6V3mZgrI - Dynamic Arrays in C
+2026-03-18 15:17:23,349 - __main__ - INFO - Downloading video 95M6V3mZgrI...
+2026-03-18 15:17:23,427 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=95M6V3mZgrI
+2026-03-18 15:17:27,444 - __main__ - INFO - Video 95M6V3mZgrI downloaded successfully. Upload skipped.
+2026-03-18 15:17:27,445 - __main__ - INFO - Found new video: 4KdvcQKNfbQ - Programming Party Tricks
+2026-03-18 15:17:27,514 - __main__ - INFO - Downloading video 4KdvcQKNfbQ...
+2026-03-18 15:17:27,586 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=4KdvcQKNfbQ
+2026-03-18 15:17:36,070 - __main__ - INFO - Video 4KdvcQKNfbQ downloaded successfully. Upload skipped.
+2026-03-18 15:17:36,072 - __main__ - INFO - Found new video: oEL9x6pP4FM - Stop telling me about _Generic
+2026-03-18 15:17:36,156 - __main__ - INFO - Downloading video oEL9x6pP4FM...
+2026-03-18 15:17:36,244 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=oEL9x6pP4FM
+2026-03-18 15:17:42,946 - __main__ - INFO - Video oEL9x6pP4FM downloaded successfully. Upload skipped.
+2026-03-18 15:17:42,946 - __main__ - INFO - Found new video: bzBU7iF2Rms - How to Prevent All Memory Leaks
+2026-03-18 15:17:43,019 - __main__ - INFO - Downloading video bzBU7iF2Rms...
+2026-03-18 15:17:43,079 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=bzBU7iF2Rms
+2026-03-18 15:17:48,237 - __main__ - INFO - Video bzBU7iF2Rms downloaded successfully. Upload skipped.
+2026-03-18 15:17:48,238 - __main__ - INFO - Found new video: tBApLbmAZ6Y - You should read Open Source code
+2026-03-18 15:17:48,326 - __main__ - INFO - Downloading video tBApLbmAZ6Y...
+2026-03-18 15:17:48,429 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=tBApLbmAZ6Y
+2026-03-18 15:17:56,259 - __main__ - INFO - Video tBApLbmAZ6Y downloaded successfully. Upload skipped.
+2026-03-18 15:17:56,264 - __main__ - INFO - Found new video: xNX9H_ZkfNE - Graphics API is irrelevant
+2026-03-18 15:17:56,360 - __main__ - INFO - Downloading video xNX9H_ZkfNE...
+2026-03-18 15:17:56,429 - src.downloader - INFO - Downloading video: https://www.youtube.com/watch?v=xNX9H_ZkfNE

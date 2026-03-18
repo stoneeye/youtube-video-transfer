@@ -1,0 +1,17 @@
+app:
+  check_interval: 3600  # Check every hour
+  download_path: "downloads"
+  fetch_limit: 10  # Number of videos to fetch per check
+  proxy: ""  # e.g., http://127.0.0.1:7890
+
+bilibili:
+  sessdata: ""
+  bili_jct: ""
+  dedeuserid: ""
+
+youtube:
+  channels:
+    - url: "https://www.youtube.com/@ChannelName"
+      name: "ChannelName" # Used for title prefix
+      bilibili_tag: "搬运"
+      bilibili_tid: 17  # Bilibili partition ID (e.g., 17 for Gaming)

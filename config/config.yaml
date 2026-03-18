@@ -1,0 +1,17 @@
+app:
+  check_interval: 3600  # Check every hour
+  download_path: "downloads"
+  fetch_limit: 60
+  proxy: "http://127.0.0.1:7897"  # e.g., http://127.0.0.1:7890
+
+bilibili:
+  sessdata: ""
+  bili_jct: ""
+  dedeuserid: ""
+
+youtube:
+  channels:
+    - url: "https://www.youtube.com/@Tsoding"
+      name: "Tsoding"
+      bilibili_tag: "【搬运】"
+      bilibili_tid: 231  # Bilibili partition ID (e.g., 17 for Gaming)

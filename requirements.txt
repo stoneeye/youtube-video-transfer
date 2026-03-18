@@ -1,0 +1,6 @@
+yt-dlp>=2023.7.6
+bilibili-api-python>=16.0.0
+PyYAML>=6.0
+sqlalchemy>=2.0.0
+apscheduler>=3.10.0
+deep-translator>=1.11.4
